@@ -16,5 +16,6 @@ You must download the pre-processed Wikipedia dataset  [docs.db](还没上传完
 import seawiki
 
 seawiki = seawiki.SeaWiki(wiki_path='./Sea-Wiki/wikipedia/docs.db', tfidf_path='./Sea-Wiki//wikipedia/tfidf.npz')
-title, document = seawiki.search(question = 'I love you, Xi'an Jiaotong University!', top_docs=5, is_title=True, is_document=True)
+title, document = seawiki.search(question = 'I love you, Xi'an Jiaotong University!',
+                                  top_docs=5, is_title=True, is_document=True)
 ```
