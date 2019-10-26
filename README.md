@@ -22,6 +22,7 @@ title, document = seawiki.search(question = 'I love you, Xi'an Jiaotong Universi
 ```
 
 arguments：
+
 | wiki_path | absolute path or relative path of docs.db |
 | tfidf_path | absolute path or relative path of tfidf.npz | 
 | question | any text | 
