@@ -18,6 +18,13 @@ seawiki = seawiki.SeaWiki(wiki_path='./Sea-Wiki/wikipedia/docs.db', tfidf_path='
 title, document = seawiki.search(question = "I love you, Xi'an Jiaotong University!",
                                   top_docs=5, is_title=True, is_document=True)
 ```
+return:
+<p align="center">
+	<img src="https://github.com/DefuLi/Sea-Wiki/blob/master/Sea-Wiki/截图.png"  width="500" height="300">
+	<p align="center">
+		<em>返回标题和文档</em>
+	</p>
+</p>
 
 | argument | explanation |
 | ------------- | ------------- |
