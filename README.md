@@ -35,7 +35,7 @@ if is_title = False, then the seawiki.search() only return document.
 ```python
 import seawiki
 
-seawiki = seawiki.SeaWiki('./Sea-Wiki/wikipedia/docs.db', './Sea-Wiki//wikipedia/tfidf.npz')
+seawiki = seawiki.SeaWiki(wiki_path='./Sea-Wiki/wikipedia/docs.db', tfidf_path='./Sea-Wiki//wikipedia/tfidf.npz')
 document = seawiki.search(question = 'I love you, Xi'an Jiaotong University!',
                             top_docs=5, is_title=False, is_document=True)
 ```
