@@ -12,6 +12,7 @@ pip install seawiki
 You must download the pre-processed Wikipedia dataset  [docs.db](还没上传完) and the vectorized Wikipedia dataset [tfidf.npz](还没上传完).
 
 ## start demo
+example:
 ```python
 import seawiki
 
@@ -19,3 +20,11 @@ seawiki = seawiki.SeaWiki(wiki_path='./Sea-Wiki/wikipedia/docs.db', tfidf_path='
 title, document = seawiki.search(question = 'I love you, Xi'an Jiaotong University!',
                                   top_docs=5, is_title=True, is_document=True)
 ```
+
+arguments：
+| wiki_path | absolute path or relative path of docs.db |
+| tfidf_path | absolute path or relative path of tfidf.npz | 
+| question | any text | 
+| top_docs | number of documents returned |
+| is_title | whether to return the title of the document |
+| is_document | whether to return the content of the document |
