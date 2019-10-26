@@ -29,3 +29,8 @@ arguments：
 | top_docs | number of documents returned |
 | is_title | whether to return the title of the document |
 | is_document | whether to return the content of the document |
+
+
+| Header Cell | Header Cell |
+| ------------- | ------------- |
+| Content Cell | Content Cell |
