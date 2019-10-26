@@ -21,8 +21,8 @@ title, document = seawiki.search(question = 'I love you, Xi'an Jiaotong Universi
                                   top_docs=5, is_title=True, is_document=True)
 ```
 
-arguments：
-
+| argument | explanation |
+| ------------- | ------------- |
 | wiki_path | absolute path or relative path of docs.db |
 | tfidf_path | absolute path or relative path of tfidf.npz | 
 | question | any text | 
@@ -30,7 +30,3 @@ arguments：
 | is_title | whether to return the title of the document |
 | is_document | whether to return the content of the document |
 
-
-| Header Cell | Header Cell |
-| ------------- | ------------- |
-| Content Cell | Content Cell |
