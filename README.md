@@ -14,8 +14,8 @@ example:
 ```python
 import seawiki
 
-seawiki = seawiki.SeaWiki(wiki_path='./Sea-Wiki/wikipedia/docs.db', tfidf_path='./Sea-Wiki//wikipedia/tfidf.npz')
-title, document = seawiki.search(question = "I love you, Xi'an Jiaotong University!",
+sw = seawiki.SeaWiki(wiki_path='./Sea-Wiki/wikipedia/docs.db', tfidf_path='./Sea-Wiki//wikipedia/tfidf.npz')
+title, document = sw.search(question = "I love you, Xi'an Jiaotong University!",
                                   top_docs=5, is_title=True, is_document=True)
 ```
 return:
@@ -40,8 +40,8 @@ If is_title = False, then the seawiki.search() only return document.
 ```python
 import seawiki
 
-seawiki = seawiki.SeaWiki(wiki_path='./Sea-Wiki/wikipedia/docs.db', tfidf_path='./Sea-Wiki//wikipedia/tfidf.npz')
-document = seawiki.search(question = "I love you, Xi'an Jiaotong University!",
+sw = seawiki.SeaWiki(wiki_path='./Sea-Wiki/wikipedia/docs.db', tfidf_path='./Sea-Wiki//wikipedia/tfidf.npz')
+document = sw.search(question = "I love you, Xi'an Jiaotong University!",
                             top_docs=5, is_title=False, is_document=True)
 ```
 
