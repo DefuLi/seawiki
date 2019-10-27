@@ -1,5 +1,5 @@
 # seawiki
-The seawiki library is used to input a text and return the most similar top n  documents in Wikipedia. The main code of the seawiki library comes from Facebook's [DrQA](https://github.com/facebookresearch/DrQA) project.<br>
+The seawiki library is used to input a text and return the most similar top n  documents in Wikipedia. The main code of the seawiki library comes from Facebook's [DrQA](https://github.com/facebookresearch/DrQA) project. I only reconstructed the retrieval part of the DrQA project.<br>
 
 ## installing seawiki
 I recommend that you install it in a virtual environment, if you don't have a virtual environment, it doesn't matter.<br>
