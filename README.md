@@ -7,7 +7,7 @@ I recommend that you install it in a virtual environment, if you don't have a vi
 pip install seawiki
 ```
 
-You must download the pre-processed Wikipedia dataset  [docs.db](还没上传完) and the vectorized Wikipedia dataset [tfidf.npz](https://pan.baidu.com/s/1j9bZgYWh8wjZzh94AWEvSA).
+You must download the pre-processed Wikipedia dataset  [docs.db](https://pan.baidu.com/s/1pxOoB-hUtXcxa_BP9mC0_A) and the vectorized Wikipedia dataset [tfidf.npz](https://pan.baidu.com/s/1j9bZgYWh8wjZzh94AWEvSA).
 
 ## start demo
 example:
