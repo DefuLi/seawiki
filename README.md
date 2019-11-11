@@ -20,7 +20,7 @@ title, document = sw.search(question = "I love you, Xi'an Jiaotong University!",
 ```
 return:
 <p align="center">
-	<img src="https://github.com/DefuLi/Sea-Wiki/blob/master/Sea-Wiki/截图.png"  width="500" height="500">
+	<img src="https://github.com/DefuLi/Sea-Wiki/blob/master/Sea-Wiki/截图.png"  width="650" height="300">
 	<p align="center">
 		<em>返回标题和文档</em>
 	</p>
