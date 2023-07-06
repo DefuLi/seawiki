@@ -12,5 +12,5 @@ setup(
     packages = find_packages(),
     include_package_data = True,
     platforms = "any",
-    install_requires = ['joblib==0.14.0', 'numpy==1.16.2', 'pkg-resources==0.0.0', 'regex==2019.8.19', 'scikit-learn==0.21.3', 'scipy==1.3.1', 'sklearn==0.0']
+    install_requires = ['joblib==0.14.0', 'numpy==1.16.2', 'pkg-resources==0.0.0', 'regex==2019.8.19', 'scikit-learn==0.21.3', 'scipy==1.10.0', 'sklearn==0.0']
 )
